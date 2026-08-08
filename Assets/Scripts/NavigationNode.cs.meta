@@ -1,0 +1,16 @@
+fileFormatVersion: 2
+guid: 5c626971b91764e2baa41e7181b693a8
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - roomSkybox: {fileID: 2100000, guid: 3d8646bdb29b04399a2f6c4d6a55be5e, type: 2}
+  - forwardNode: {instanceID: 0}
+  - backNode: {instanceID: 0}
+  - leftNode: {instanceID: 0}
+  - rightNode: {instanceID: 0}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
