@@ -1,6 +1,0 @@
-<linker>
-  <assembly fullname="UnityEngine" preserve="all"/>
-  <assembly fullname="UnityEngine.UI" preserve="all"/>
-  <assembly fullname="UnityEngine.UIElements" preserve="all"/>
-  <assembly fullname="Assembly-CSharp" preserve="all"/>
-</linker>
