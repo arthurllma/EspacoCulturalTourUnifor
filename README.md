@@ -57,18 +57,6 @@ Conforme as diretrizes do edital do Laboratório Vortex:
 
 ---
 
-## 📁 Organização do Projeto
-
-A estrutura de diretórios do repositório segue rigorosamente a especificação do edital:
-
-```text
-EspacoCulturalTour/
-├── Assets/                # Scripts C#, Materiais, Texturas 360°, Prefabs e Cenas
-├── Packages/              # Pacotes e dependências do projeto Unity
-├── ProjectSettings/       # Configurações do projeto e WebGL Player Settings
-├── screenshots/           # Capturas de tela (Menu, Tutorial, CenaExemplo, Conclusao)
-└── README.md              # Documentação oficial e Diário de Bordo da IA
-
 ---
 
 ## 🤖 Diário de Bordo: Uso e Curadoria de Inteligência Artificial
@@ -110,3 +98,17 @@ Este projeto contou com o apoio de Ferramentas de Inteligência Artificial Gener
 ### 4. Conclusão sobre o Impacto da IA no Projeto
 
 O uso da Inteligência Artificial acelerou drasticamente o ciclo de aprendizado e desenvolvimento, permitindo focar na experiência do usuário e na arquitetura do software. A postura crítica na seleção e correção do código garantiu um projeto robusto, otimizado e com total domínio do autor sobre a solução entregue.
+
+---
+
+## 📁 Organização do Projeto
+
+A estrutura de diretórios do repositório segue rigorosamente a especificação do edital:
+
+```text
+EspacoCulturalTour/
+├── Assets/                # Scripts C#, Materiais, Texturas 360°, Prefabs e Cenas
+├── Packages/              # Pacotes e dependências do projeto Unity
+├── ProjectSettings/       # Configurações do projeto e WebGL Player Settings
+├── screenshots/           # Capturas de tela (Menu, Tutorial, CenaExemplo, Conclusao)
+└── README.md              # Documentação oficial e Diário de Bordo da IA
