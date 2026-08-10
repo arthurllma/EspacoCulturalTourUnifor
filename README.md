@@ -1,5 +1,5 @@
 
-# 🏛️ Espaço Cultural Tour — Navegador 360º Interativo WebGL
+# Espaço Cultural Tour — Navegador 360º Interativo WebGL
 
 > **Projeto desenvolvido para o Desafio Técnico do Processo Seletivo de Estágio em Jogos — Laboratório Vortex (Universidade de Fortaleza - UNIFOR)**.
 
@@ -9,7 +9,7 @@
 
 ---
 
-## 📌 Visão Geral do Projeto
+## Visão Geral do Projeto
 
 O **Espaço Cultural Tour** é uma aplicação WebGL interativa que replica o funcionamento do *Google Street View* em uma plataforma dedicada. A aplicação permite a navegação panorâmica em 360º pelas galerias de arte do **Espaço Cultural da Unifor**, conectando pontos reais e proporcionando uma simulação imersiva de caminhada pelo ambiente.
 
@@ -17,7 +17,7 @@ O **Espaço Cultural Tour** é uma aplicação WebGL interativa que replica o fu
 
 ---
 
-## 📸 Fluxo da Aplicação & Demonstração Visual
+## Fluxo da Aplicação & Demonstração Visual
 
 <div align="center">
 
@@ -37,11 +37,11 @@ O **Espaço Cultural Tour** é uma aplicação WebGL interativa que replica o fu
 
 ---
 
-## ⚡ Requisitos Técnicos Atendidos
+## Requisitos Técnicos Atendidos
 
 Conforme as diretrizes do edital do Laboratório Vortex:
 
-### ✅ Requisitos Mínimos (Obrigatórios)
+### Requisitos Mínimos (Obrigatórios)
 * **Motor de Jogos:** Desenvolvido no Unity 6.
 * **Imagens de Lugares Reais e Conectadas:** Mais de 10 imagens panorâmicas 360º do Espaço Cultural Unifor mapeadas logicamente.
 * **Navegação Multimodal:**
@@ -49,15 +49,15 @@ Conforme as diretrizes do edital do Laboratório Vortex:
   * Navegação entre imagens via **teclado**.
 * **Build WebGL:** Aplicação compilada nativamente para a Web e disponibilizada publicamente para avaliação.
 
-### ✨ Requisitos Bônus (Diferenciais Implementados)
-* 🎮 **Mecânicas de Gamificação:** Contador visual de salas visitadas (`Salas Visitadas: X / 12`) e tela de parabéns ao concluir a exploração do espaço.
-* 🎧 **Feedbacks Sonoros e Visuais:** Efeitos de áudio e transições visuais ao interagir com o menu e os pontos de navegação.
-* 🔍 **Zoom / Pan:** Rotação e movimentação livre de câmera panorâmica.
-* 🗺️ **Minimapa Interativo:** Indicador visual que reflete em tempo real a posição e localização do visitante.
+### Requisitos Bônus (Diferenciais Implementados)
+* **Mecânicas de Gamificação:** Contador visual de salas visitadas (`Salas Visitadas: X / 12`) e tela de parabéns ao concluir a exploração do espaço.
+* **Feedbacks Sonoros e Visuais:** Efeitos de áudio e transições visuais ao interagir com o menu e os pontos de navegação.
+* **Zoom / Pan:** Rotação e movimentação livre de câmera panorâmica.
+* **Minimapa Interativo:** Indicador visual que reflete em tempo real a posição e localização do visitante.
 
 ---
 
-## 🤖 Diário de Bordo: Uso e Curadoria de Inteligência Artificial
+## Diário de Bordo: Uso e Curadoria de Inteligência Artificial
 
 Este projeto contou com o apoio de Ferramentas de Inteligência Artificial Generativa atuando como **copiloto de desenvolvimento e tutor técnico**. A abordagem adotada priorizou o **uso consciente, ético e crítico da IA**, onde nenhuma solução foi integrada ao projeto sem o devido entendimento, validação e adaptação manual.
 
@@ -99,7 +99,7 @@ O uso da Inteligência Artificial acelerou drasticamente o ciclo de aprendizado 
 
 ---
 
-## 📁 Organização do Projeto
+## Organização do Projeto
 
 A estrutura de diretórios do repositório segue rigorosamente a especificação do edital:
 
