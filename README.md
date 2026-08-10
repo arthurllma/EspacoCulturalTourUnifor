@@ -74,11 +74,11 @@ Este projeto contou com o apoio de Ferramentas de Inteligência Artificial Gener
 
 | Etapa do Projeto | Atuação da IA | Intervenção Humana / Curadoria Técnica |
 | :--- | :--- | :--- |
-| **Arquitetura da Navegação** | Sugestão inicial da estrutura de nós para navegação entre salas em 360⁰. | Evitei a sugestão de carregar várias Cenas no Unity para não deixar o jogo pesado no navegador. Optei por usar uma única cena e trocar apenas o RenderSettings.skybox via código. |
-| **Scripts C# (`NavigationNode` e `Manager`)** | Auxílio na lógica de navegação por Grafo (`forwardNode`, `leftNode`, etc.) e controle do progresso. | Ajustei o contador para usar a estrutura HashSet<NavigationNode>, garantindo que se o jogador voltasse para uma sala já visitada, ela não fosse contada duas vezes na UI. |
-| **Controle de Câmera (`CameraController`)** | Proposta de código para movimentação da câmera e zoom via rolagem do mouse. | Atualizei o código para usar o New Input System (Mouse.current.delta.ReadValue()) e ajustei a sensibilidade e os limites de rotação (Mathf.Clamp) para a câmera não inverter ao olhar para cima. |
-| **Interatividade (`Hotspot`)** | Exemplos de tratamento de clique e eventos do mouse em objetos 3D. | Implementação do feedback visual via escala nos métodos `OnMouseEnter` e `OnMouseExit`, além do vínculo do evento `OnMouseDown` com as chamadas do gerenciador. |
-| **Integração com a UI e Áudio** | Orientações de passo a passo no Editor para vincular botões e componentes. | Montagem manual da hierarquia na cena, configuração das variáveis públicas no Inspector, integração de áudios de passos (`footstepsSFX`) e vinculação dos eventos `OnClick()` da UI. |
+| **Arquitetura da Navegação** | Sugestão inicial da estrutura de nós para navegação entre salas em 360⁰. | Optei por manter todo o tour em uma única cena no Unity em vez de criar várias telas separadas. Isso evitou telas de carregamento e deixou o tour muito mais rápido e leve de rodar no navegador. |
+| **Scripts C# (`NavigationNode` e `Manager`)** | Auxílio na lógica de navegação por Grafo (`forwardNode`, `leftNode`, etc.) e controle do progresso. | Testei e calibrei o contador de progresso na prática para garantir que o número de salas visitadas só aumentasse ao entrar em locais inéditos, sem contar repetidamente se o usuário voltasse para uma sala antiga. |
+| **Controle de Câmera (`CameraController`)** | Proposta de código para movimentação da câmera e zoom via rolagem do mouse. | Ajustei manualmente a sensibilidade do movimento do mouse e limitei os ângulos da visão no Unity para que a câmera não ficasse de cabeça para baixo, além de calibrar a velocidade do zoom para ficar suave. |
+| **Interatividade (`Hotspot`)** | Exemplos de tratamento de clique e eventos do mouse em objetos 3D. | Programei os botões de navegação da interface para se adaptarem a cada sala: as setas de caminhos indisponíveis somem automaticamente e apenas os caminhos reais continuam visíveis, deixando o tour intuitivo. |
+| **Integração com a UI e Áudio** | Orientações de passo a passo no Editor para vincular botões e componentes. | Organizei e alinhei manualmente todos os botões e textos na tela, sincronizei o áudio dos passos a cada movimentação e vinculei cada botão da interface para realizar sua respectiva ação. |
 
 ---
 
