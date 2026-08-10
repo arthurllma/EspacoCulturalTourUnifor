@@ -74,7 +74,7 @@ Este projeto contou com o apoio de Ferramentas de Inteligência Artificial Gener
 
 | Etapa do Projeto | Atuação da IA | Intervenção Humana / Curadoria Técnica |
 | :--- | :--- | :--- |
-| **Arquitetura da Navegação** | Sugestão inicial da estrutura de nós para navegação entre salas em $360⁰. | Evitei a sugestão de carregar várias Cenas no Unity para não deixar o jogo pesado no navegador. Optei por usar uma única cena e trocar apenas o RenderSettings.skybox via código. |
+| **Arquitetura da Navegação** | Sugestão inicial da estrutura de nós para navegação entre salas em 360⁰. | Evitei a sugestão de carregar várias Cenas no Unity para não deixar o jogo pesado no navegador. Optei por usar uma única cena e trocar apenas o RenderSettings.skybox via código. |
 | **Scripts C# (`NavigationNode` e `Manager`)** | Auxílio na lógica de navegação por Grafo (`forwardNode`, `leftNode`, etc.) e controle do progresso. | Ajustei o contador para usar a estrutura HashSet<NavigationNode>, garantindo que se o jogador voltasse para uma sala já visitada, ela não fosse contada duas vezes na UI. |
 | **Controle de Câmera (`CameraController`)** | Proposta de código para movimentação da câmera e zoom via rolagem do mouse. | Atualizei o código para usar o New Input System (Mouse.current.delta.ReadValue()) e ajustei a sensibilidade e os limites de rotação (Mathf.Clamp) para a câmera não inverter ao olhar para cima. |
 | **Interatividade (`Hotspot`)** | Exemplos de tratamento de clique e eventos do mouse em objetos 3D. | Implementação do feedback visual via escala nos métodos `OnMouseEnter` e `OnMouseExit`, além do vínculo do evento `OnMouseDown` com as chamadas do gerenciador. |
