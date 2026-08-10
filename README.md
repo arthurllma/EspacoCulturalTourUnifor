@@ -57,8 +57,6 @@ Conforme as diretrizes do edital do Laboratório Vortex:
 
 ---
 
----
-
 ## 🤖 Diário de Bordo: Uso e Curadoria de Inteligência Artificial
 
 Este projeto contou com o apoio de Ferramentas de Inteligência Artificial Generativa atuando como **copiloto de desenvolvimento e tutor técnico**. A abordagem adotada priorizou o **uso consciente, ético e crítico da IA**, onde nenhuma solução foi integrada ao projeto sem o devido entendimento, validação e adaptação manual.
